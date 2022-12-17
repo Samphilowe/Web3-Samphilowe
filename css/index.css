@@ -1,0 +1,78 @@
+  *{
+    padding: 0px;
+    margin: 0px;
+  }
+body{
+  padding: 0px;
+  margin: 0px;
+}
+  #App{
+    position: absolute ;
+    width: 340px;
+    height: 800px;
+    padding: 40px;
+    background: lightgray;
+    
+    
+  }
+  #menu{
+    margin: 0px;
+    position: absolute;
+    display: block;
+    background: red;
+    padding: 10px;
+    
+    width: 100px;
+  }
+  li{
+    display: block;
+    position: relative;
+    margin: 2px;
+    text-decoration: none;
+    
+    float: left;
+  }
+  
+  #profile{
+    display: block;
+    position: absolute;
+    left: 25%;
+    bottom: 60%;
+    width:150px;
+    height:150px;
+  }
+  #profile img{
+    position: relative;
+    background: blue;
+    border-radius: 100%;
+  }
+  
+  #subHeader{
+    display: block;
+    position: absolute;
+    left: 30%;
+    bottom: 35%;
+    width:150px;
+    height:150px;
+  }
+
+  #footer{
+    display: block;
+    position: absolute;
+    left: 30%;
+    bottom: 30%;
+    width:150px;
+    height:150px;
+  }
+  #btn {
+  
+    background: black;
+    color: white;
+    position: relative;
+    border-radius:50% ;
+    width: 100px;
+    height: 50px;
+    padding-bottom: 2%;
+    margin-bottom:  1px ;
+  }
+  
